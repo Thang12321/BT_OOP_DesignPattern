@@ -39,7 +39,7 @@
 
 - Trong folder Flyweight:
 + Lớp interface Tree chia sẻ thông tin cho 2 lớp con của nó là ConiferTree và DeciduousTree giúp giảm dung lượng bộ nhớ thông qua chia sẻ các đối tượng
-Ví dụ: Phương thức isWithinRange ở trong Tree.java được chia sẻ cho 2 lớp con:
+Ví dụ: Phương thức isWithinRange và display ở trong Tree.java được chia sẻ cho 2 lớp con:
 Trong Tree:
 //	public default boolean isWithinRange(LocalDate aDate) {
 //		Month month = aDate.getMonth();
