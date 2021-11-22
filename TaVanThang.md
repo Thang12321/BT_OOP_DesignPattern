@@ -1,12 +1,12 @@
 - Trong folder Buider:
 + Trong HouseBuilder.java khởi tạo lớp abstract HouseBuilder có chứa các phương thức abstract sử dụng mẫu thiết kế Fluent Interface Pattern trả về chính HouseBuider
-
+```
   public abstract HouseBuilder addWalls();
   
   public abstract HouseBuilder addRoof();
   
   public abstract HouseBuilder addWindows();
-  
+ ```
 + Các lớp WoodHouseBuilder, StoneHouseBuilder, GingerbreadHouseBuilder kế thừa các thuộc tính trong lớp abstract HouseBuilder
 => Tách tiến trình xây dựng 1 đối tượng phức tạp sao cho một tiến trình tạo được các biểu diễn khác nhau => Builder Design Pattern
 
